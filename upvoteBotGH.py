@@ -39,7 +39,7 @@ while(1):
                     t.vote(identID, 10 , account=accountName)
 
                     t.post('Title of Post', "Reply Body Here", accountName, reply_identifier='@' + p.author + '/' + p.permlink)
-
+                    #The 'Title of Post' can be anything since it does not show up when replying. You can leave that as is. The 'Reply Body Here' is the actual reply message that will show up on teh post you upvoted with the bot.
 
                     time.sleep(20)
 
